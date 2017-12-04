@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Игра пар</title>
+      <link rel="stylesheet" href="css/style.css">
+</head>
+ <a href="#" id="pause">Play/Pause</a>
+<body>
+  <div class="wrapper">
+<form name="myForm">
+          <select id="selectId" onchange="change()">
+          <option disabled>Выберите размерность поля</option>
+          <option value="0">0</option>
+          <option value="1">6х6</option>
+          <option value="2">8х8</option>
+          <option value="3">10х10</option>
+         </select>
+         <div id="selection"></div>
+</form>
+  <h1>Игра пар</h1>
+  <h3>Кликни на любую карту, чтобы начать игру</h3>
+  <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+  <p id ="text"></p>
+  <div id="container">
+      <div id="pause-block">На паузе</div>
+  </div>
+</div>
+    <script  src="js/index.js"></script>
+</body>
+</html>
