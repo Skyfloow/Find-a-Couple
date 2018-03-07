@@ -1,5 +1,5 @@
 body {
-  background: #82d2e7;
+  background: #24cd8c;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   height: 100%;
   color: #fff;
@@ -26,32 +26,6 @@ h3 {
   font-size: 2em;
 }
 
-button {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  -khtml-border-radius: 5px;
-  background: #82d2e7;
-  color: #fff;
-  border: solid 1px #fff;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 1.2em;
-  padding: 18px 10px;
-  width: 180px;
-  margin: 10px;
-  outline: none;
-}
-button:hover {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  background: #fff;
-  border: solid 1px #fff;
-  color: #82d2e7;
-}
-
-
 #container {
   width: 630px;
   margin: 10px auto;
@@ -61,6 +35,19 @@ button:hover {
   content: "";
   display: table;
   clear: both;
+}
+
+#pause {
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-khtml-border-radius: 5px;
+background: #d9354f;
+color: #fff;
+text-decoration: none;
+font-size: 1.2em;
+padding: 7px;
+outline: none;
 }
 
 [data-view="card"] {
@@ -99,7 +86,6 @@ button:hover {
   transform: rotateY(0deg);
 }
 
-/* Icons */
 .correct[data-item="chicken"],
 .flipped[data-item="chicken"] {
   background: url("img/chicken.png") left center no-repeat #fff;
