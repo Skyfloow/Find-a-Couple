@@ -7,7 +7,7 @@ var myCards = document.getElementById('container'),
     appendTens = document.getElementById("tens"),
     appendSeconds = document.getElementById("seconds"),
     Interval ,
-    counter,
+    counter = 0,
     pause = false;
 
 var images = [
